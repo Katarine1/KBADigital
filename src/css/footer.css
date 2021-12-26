@@ -96,8 +96,10 @@ img#footer-linkedin:hover {
 }
 
 @media(max-width: 992px) {
-    section#footer-contato a {
-        width: 8%;
+    img#footer-linkedin {
+        width: 40px!important;
         margin: 0 10px;
     }
 }
+
+

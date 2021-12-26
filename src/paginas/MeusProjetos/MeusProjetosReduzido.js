@@ -9,8 +9,8 @@ const MeusProjetosReduzido = () => {
                 let id = item.id;
                 if (id <= 3) {
                     return (
-                        <a className="conteudo-link" href={item.link} target="_blank">
-                            <aside key={item.id} className="conteudo-item">
+                        <a key={item.id} className="conteudo-link" href={item.link} target="_blank">
+                            <aside className="conteudo-item">
                                 <img src={item.imagem} alt="imagem" />
                                 <article>
                                     <h5>{item.titulo}</h5>

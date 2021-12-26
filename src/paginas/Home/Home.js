@@ -103,7 +103,7 @@ const Home = () => {
 
                 <aside id="meus-projetos">   
 
-                    <section id="projetos-titulo" class="titulo">
+                    <section id="projetos-titulo" className="titulo">
                         <h2>Meus Projetos</h2>
                     </section>
 
@@ -123,7 +123,7 @@ const Home = () => {
 
                 <aside id="conhecimentos">
 
-                    <section id="conhecimentos-titulo" class="titulo">
+                    <section id="conhecimentos-titulo" className="titulo">
                         <h2>Conhecimentos</h2>
                     </section>
 
@@ -133,7 +133,7 @@ const Home = () => {
 
                 <aside id="servicos">
 
-                    <section id="servico-titulo" class="titulo">
+                    <section id="servico-titulo" className="titulo">
                         <h2>Serviços</h2>
                     </section>
 
