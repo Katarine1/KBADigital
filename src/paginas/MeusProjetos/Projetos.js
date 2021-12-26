@@ -84,7 +84,7 @@ export const Projetos = [
     {
         id: 11,
         imagem: Imagem11P,
-        titulo: 'Specia Sports Kids',
+        titulo: 'Special Sports Kids',
         tipo: 'Wordpress',
         link: 'http://specialsportskids.com/'
     },
