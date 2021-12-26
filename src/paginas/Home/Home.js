@@ -6,7 +6,7 @@ import Header from '../../componentes/Header/Header';
 
 // Imagens Menu
 import Menu from './../../imagens/site/menu.png';
-import Fechar from './../../imagens/site/cancel-vermelho.png';
+import Fechar from './../../imagens/site/cancel-branco.png';
 
 // Páginas
 import LogoHeader from '../../componentes/Logos/LogoHeader';
