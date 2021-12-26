@@ -21,7 +21,7 @@ section#footer-logo {
     align-items: center;
 }
 
-section#footer-contato {
+section#contato {
     width: 50%;
     height: auto;
     display: flex;
@@ -35,7 +35,7 @@ section#footer-contato {
         padding: 10px 0;
         justify-content: center;
     }
-    section#footer-logo, section#footer-contato {
+    section#footer-logo, section#contato {
         width: 100%;
         justify-content: center;
         padding-bottom: 10px;
@@ -59,18 +59,18 @@ section#footer-logo img {
     }
 }
 
-section#footer-contato a#imagem-linkedin {
+section#contato a#imagem-linkedin {
     width: 7%;
     height: auto;
     margin: 0 10px;
 }
 
-section#footer-contato img {
+section#contato img {
     width: 100%;
     height: auto;
 }
 
-section#footer-contato a#email {
+section#contato a#email {
     width: auto;
     height: 42px;
     padding: 0 20px;
@@ -87,7 +87,7 @@ img#imagem-email {
     margin-right: 10px;
 }
 
-section#footer-contato h6 {
+section#contato h6 {
     color: #FFF;
 }
 

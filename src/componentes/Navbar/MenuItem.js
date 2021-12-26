@@ -25,7 +25,7 @@ const MenuItem = () => {
                 <a id="nav-link-4" className="nav-link" href="/#servicos">Serviços</a>
             </li>
             <li id="nav-item-5" className="nav-item">
-                <a id="nav-link-5" className="nav-link" href="/#footer-contato">Contato</a>
+                <a id="nav-link-5" className="nav-link" href="/#contato">Contato</a>
             </li>
         </ul>
     );

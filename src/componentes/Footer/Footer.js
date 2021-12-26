@@ -10,7 +10,7 @@ const Footer = () => {
 			
 			<LogoFooter />
 
-			<section id="footer-contato">
+			<section id="contato">
 				
 				<LinkEmail />
 				

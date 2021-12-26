@@ -23,7 +23,7 @@ export const Projetos = [
         imagem: Imagem02P,
         titulo: 'Fundação Angélica Goulart',
         tipo: 'HTML5',
-        link: 'http://kbadigital.com.br/sites/Angelica-goulart/fundacao-angelica-goulart/index.html'
+        link: 'http://kbadigital.com.br/sites/fundacao/angelica-goulart/index.html'
     },
     {
         id: 3,
