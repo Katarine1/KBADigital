@@ -27,6 +27,25 @@ section#header-apresenta {
     line-height: 45px;
 }
 
+aside#links {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media(max-width: 992px) {
+    aside#links {
+        justify-content: center;
+    }
+}
+
+aside#links a {
+    margin-right: 10px;
+}
+
 section#header-apresenta h2 {
     font-weight: 400;
 }
@@ -79,7 +98,7 @@ aside#apresenta a {
     background-color: #FF0000;
     color: #FFF;
     font-weight: 700;
-    padding: 5px 20px;
+    padding: 0px 20px;
     border-radius: 8px;
     font-size: 18px;
 }

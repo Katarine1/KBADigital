@@ -72,3 +72,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Instalações complementares:
 
 React Router Dom: [https://www.npmjs.com/package/react-router-dom/v/5.0.0](https://www.npmjs.com/package/react-router-dom/v/5.0.0)
+
+React jquery plugin: [https://www.npmjs.com/package/react-jquery-plugin](https://www.npmjs.com/package/react-jquery-plugin)

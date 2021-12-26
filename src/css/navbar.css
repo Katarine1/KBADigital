@@ -18,29 +18,45 @@ nav#nav {
 section#nav-logo {
     width: 30%;
     height: auto;
-    z-index: 12;
     padding-left: 3%;  
 }
 
-section#nav-logo img {
+section#nav-logo-02 {
+    width: 30%;
+    height: 50px;
+    z-index: 20;
+    padding-left: 3%;
+    position: absolute;  
+    top: 25px;
+    left: 3%;
+    display: none;
+}
+
+@media(max-width: 992px) {
+    section#nav-logo-02 {
+        display: flex;
+    }
+}
+
+section#nav-logo img, section#nav-logo-02 img {
     width: 200px;
     height: auto;
 }
 
 @media(max-width: 992px) {
-    section#nav-logo {
+    section#nav-logo, section#nav-logo-02 {
         padding-left: 5%;
     }
-    section#nav-logo img {
+    section#nav-logo img, section#nav-logo-02 img {
         width: 180px;
     }
 }
 
 @media(max-width: 768px) {
-    section#nav-logo {
+    section#nav-logo , section#nav-logo-02{
         padding-left: 5%;
     }
-    section#nav-logo img {
+    section#nav-logo img, section#nav-logo-02 img {
         width: 150px;
     }
 }
@@ -70,6 +86,7 @@ ul#nav-menu {
 
 li.nav-item {
     margin: 0 8px;
+    list-style: none;
 }
 
 li a, li a:link, li a:visited, li a:active {
@@ -89,7 +106,7 @@ li a:hover {
 @media(max-width: 992px) {
     nav#nav {
         width: 100%;
-        height: auto;
+        height: 50px;
         position: fixed;
         
     }
@@ -97,19 +114,19 @@ li a:hover {
         display: none;
     }
     ul#nav-menu {
-        width: 180px;
+        width: 100%;
         height: 100%;
         padding-right: 20px;
         z-index: 10;
         display:flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-end;
+        align-items: center;
         position: fixed;
         top: 0;
         right: 0;
         padding-top: 50px;
-        background-color: #FF0000;
+        background-color: #2A7FFF;
     }
     li a, li a:link, li a:visited, li a:active {
         color: #FFF!important;
@@ -135,7 +152,7 @@ img#nav-imagem-menu {
     display: block;
     z-index: 12;
     position: absolute;
-    top: 50px;
+    top: 25px;
     right: 5%;
 }
 

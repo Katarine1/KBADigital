@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 // Header e Footer
 import Footer from '../../componentes/Footer/Footer';
@@ -28,6 +28,9 @@ import './../../css/conhecimentos.css';
 import './../../css/servicos.css';
 import './../../css/footer.css';
 
+// jQuery
+import $ from 'jquery';
+
 
 const Home = () => {
 
@@ -39,41 +42,49 @@ const Home = () => {
     const [mostraProjeto, setMostraProjeto] = useState(<MeusProjetosReduzido />);
     const [botãoProjeto, setBotãoProjeto] = useState(true);
 
-    // Função para abrir e fechar Menu Mobile
+    // Ao clicar no Link fecha o menu.
+    useEffect(() => {
+        $(".nav-item").on("click", () => {
+            setAbrirMenu(!abrirMenu);
+            setImagemMenu(Menu);
+        });
+    });
+
+    // Função para abrir e fechar Menu Mobile.
     const abrir_menu = () => {
         setAbrirMenu(!abrirMenu);
         if (!abrirMenu) {
-            setImagemMenu(Menu);            
+            setImagemMenu(Menu);
         }
         else {
             setImagemMenu(Fechar);
         }
     }
 
-    // Função para Exibir mais Projetos
+    // Função para Exibir mais Projetos.
     const abrirProjetos = () => {
-        if(mostraProjeto) {
+        if (mostraProjeto) {
             setMostraProjeto(<MeusProjetosCompleto />);
             setBotãoProjeto(false)
         }
         else {
-            setMostraProjeto(<MeusProjetosReduzido/>);
+            setMostraProjeto(<MeusProjetosReduzido />);
             setBotãoProjeto(true);
         }
     }
 
     return (
         <div id="pagina">
-            
+
             <nav id="nav">
 
                 <LogoHeader />
-                
+
                 <section id="nav-imagens">
 
                     <button onClick={() => abrir_menu()}>
 
-                        <img id="nav-imagem-menu" src={imagemMenu} alt="imagem"/>
+                        <img id="nav-imagem-menu" src={imagemMenu} alt="imagem" />
 
                     </button>
 
@@ -81,7 +92,7 @@ const Home = () => {
 
                 <section id="nav-itens">
 
-                    <div className={abrirMenu ? "div-menu-esconde" : "div-menu"}>
+                    <div className={abrirMenu ? "div-menu-esconde" : "div-menu"} >
 
                         <MenuItem />
 
@@ -101,7 +112,7 @@ const Home = () => {
 
                 </aside>
 
-                <aside id="meus-projetos">   
+                <aside id="meus-projetos">
 
                     <section id="projetos-titulo" className="titulo">
                         <h2>Meus Projetos</h2>
@@ -111,11 +122,11 @@ const Home = () => {
 
                     <section id="conteudo-button">
 
-                        {botãoProjeto ? 
+                        {botãoProjeto ?
 
                             <button onClick={() => abrirProjetos()}>Veja mais Projetos</button>
 
-                        : <div></div>}
+                            : <div></div>}
 
                     </section>
 
