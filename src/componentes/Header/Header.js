@@ -4,7 +4,7 @@ import LinkLinkedinHeader from '../Links/LinkLinkedinHeader';
 import ImagemHeader from './../../imagens/site/imagem.png';
 import ImagemMouse from './../../imagens/site/mouse.png';
 
-const Header = (props) => {
+const Header = () => {
     return (
         <header id="header">
             <aside id="header-aside">
@@ -14,7 +14,7 @@ const Header = (props) => {
                         <h1 className="cor-azul">Katarine Albuquerque.</h1>
                         <h3>Desenvolvedora Front-end.</h3>
                         <aside id="links">
-                            <LinkLinkedinHeader logo={props.logo} />
+                            <LinkLinkedinHeader />
                             <LinkGitHub />
                         </aside>
                     </aside>
