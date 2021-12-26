@@ -1,0 +1,91 @@
+/*
+  === HEADER ===
+*/ 
+
+header#header {
+    width: 94%;
+    height: auto;
+    padding: 80px 3% 30px 3%;    
+}
+
+aside#header-aside {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section#header-apresenta {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 45px;
+}
+
+section#header-apresenta h2 {
+    font-weight: 400;
+}
+
+section#header-imagem {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 992px) {
+    header#header {
+        padding: 170px 3% 20px 3%;
+    }
+    section#header-apresenta, section#header-imagem {
+        width: 100%;
+        text-align: center;        
+    }
+}
+
+section#header-imagem img {
+    width: 70%;
+    height: auto;
+}
+
+aside#desenvolvedora {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside#desenvolvedora img {
+    width: 1.5%;
+    height: auto;
+}
+
+@media(max-width: 992px) {
+    aside#desenvolvedora img {
+        width: 3%; 
+        margin-top: 20px;       
+    }
+}
+
+aside#apresenta a {
+    background-color: #FF0000;
+    color: #FFF;
+    font-weight: 700;
+    padding: 5px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+aside#apresenta a:hover {
+    border: 2px solid #FF0000;
+    background-color: #FFF;
+    color: #FF0000;
+}

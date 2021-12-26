@@ -1,0 +1,92 @@
+/*
+  === PROJETOS ===
+*/ 
+
+aside#meus-projetos {
+    width: 94%;
+    height: auto;
+    padding: 75px 3%;
+    background-color: #f2f2f2;
+}
+
+section#conteudo-items {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+a.conteudo-link {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+}
+
+aside.conteudo-item:hover {
+    background-color: #2A7FFF;
+    z-index: 10;
+}
+
+@media(max-width: 992px) {
+    a.conteudo-link {
+        width: 70%!important;
+    }
+}
+
+aside.conteudo-item {
+    width: 100%;
+    height: 100%;
+    background-color: #FF0000;
+    text-align: center;
+}
+
+aside.conteudo-item h5 {
+    font-weight: 900;
+}
+
+aside.conteudo-item h6 {
+    font-weight: 600;
+}
+
+aside.conteudo-item h5, aside.conteudo-item h6 {
+    text-transform: uppercase;
+}
+
+aside.conteudo-item img {
+    width: 100%;
+    height: auto;
+}
+
+aside.conteudo-item article {
+    padding: 10px;
+}
+
+aside.conteudo-item article h5, aside.conteudo-item article h6 {
+    color: #FFF;
+}
+
+section#conteudo-button {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+section#conteudo-button button {
+    background-color: #FF0000;
+    color: #FFF;
+}
+
+section#conteudo-button button:hover {
+    color: #FFF;
+    background-color: #2A7FFF;
+}
+
+@media(max-width: 992px) {
+    a.conteudo-link {
+        width: 100%;
+    }    
+}

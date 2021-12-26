@@ -1,0 +1,111 @@
+/*
+  === HOME ===
+*/  
+
+div#pagina {
+    width: 100%;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;    
+    position: relative;
+    background-color: #FFF;
+    max-width: 1200px; 
+}
+
+/*
+  === TÍTULOS ===
+*/ 
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+button {
+    width: auto;
+    height: 40px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+@media(max-width: 567px) {
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+    
+    h3 {
+        font-size: 22px;
+    }
+    
+    h4 {
+        font-size: 18px;
+    }
+    
+    h5 {
+        font-size: 14px;
+    }
+    
+    h6 {
+        font-size: 11px;
+    }
+    
+    button {
+        font-size: 16px;
+    }   
+}
+
+/*
+  === CLASSES ===
+*/ 
+
+.cor-azul {
+    color: #2A7FFF;;
+}
+
+.cor-vermelho {
+    color: #FF0000;;
+}
+
+.titulo {
+    width: 86%;
+    height: 50px;
+    padding: 15px 3%;
+}
+
+@media(max-width: 992px) {
+    .titulo {
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+    }
+}
