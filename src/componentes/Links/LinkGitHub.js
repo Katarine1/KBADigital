@@ -2,7 +2,7 @@ import React from 'react';
 
 const LinkGitHub = () => {
     return(
-        <a href="https://github.com/Katarine1" target="_blank">GitHub</a>
+        <a href="https://github.com/seu-usuario" target="_blank">GitHub</a>
     );
 }
 
