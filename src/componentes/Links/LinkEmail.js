@@ -4,9 +4,9 @@ import ImagemMensagem from './../../imagens/site/envelope-branco.png';
 
 const LinkEmail = () => {
     return (
-        <a id="email" href="mailto:kba.2879@gmail.com">
+        <a id="email" href="mailto:seu email">
             <img id="imagem-email" src={ImagemMensagem} alt="imagem"/>
-            <h6>kba.2879@gmail.com</h6>
+            <h6>Seu email</h6>
         </a>
     );
 }
